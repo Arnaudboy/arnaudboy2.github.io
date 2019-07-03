@@ -1,3 +1,33 @@
 #head {
+	border: 3px solid red;
 	display: flex;
+	align-content: flex-end;
+	justify-content: flex-end;
+	align-items: center;
+}
+.content {
+	border: 3px solid blue;
+	margin-left: 5px
+}
+.content:hover {
+	text-decoration: underline;
+}
+.content2 {
+	border: 3px solid blue;
+	margin-left: 5px;
+	background-color: #1E90FF;
+	color: white;
+	font-weight: bold;
+	border-radius: 2px;
+}
+.img {
+	display: flex;
+	border: 3px solid black;
+	height: 40px;
+	width: 40px;
+	justify-content: center;
+	opacity: .55;
+}
+.img:hover{
+	opacity: 1;
 }
